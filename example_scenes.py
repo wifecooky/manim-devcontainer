@@ -67,7 +67,9 @@ class OpeningManim(Scene):
         )
         self.wait()
         self.play(Transform(grid_title, grid_transform_title))
-        self.wait()class OpeningManim(Scene):
+        self.wait()
+
+class OpeningManim(Scene):
     def construct(self):
         title = Tex(r"This is some \LaTeX")
         basel = MathTex(r"\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}")
